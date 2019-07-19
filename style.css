@@ -1,0 +1,128 @@
+body {
+    font: arial,sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+}
+
+li {
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size:14px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rightmenu {
+    float: right;
+}
+
+.leftmenu {
+    float: left;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .child {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #searchBar {
+      margin-top: 100px;
+      border-radius: 50px;
+      width: 500px;
+      height: 30px;
+      border: .5px solid rgb(230, 230, 230);
+      outline-width: 0;
+      padding: 8px 20px 8px 20px;
+      font-size: 16px;
+  }
+
+  #searchBar:hover {
+    box-shadow: 1px 2px 3px rgba(117, 117, 117, 0.2);
+  }
+
+  #searchButton {
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 165px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-left: -80px;
+    outline-width: 0;
+    background: rgb(245, 245, 245);
+    color:rgb(110, 110, 110);
+  } 
+
+  #searchButton:hover {
+    border: .5px solid rgb(209, 209, 209);
+    cursor: pointer;
+    color:rgb(77, 77, 77);
+  }
+
+  #luckyButton {
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 165px;
+    border: none;
+    padding: 10px 20px;
+    font-size:14px;
+    margin-left: 80px;
+    outline-width: 0;
+    background: rgb(245, 245, 245);
+    color:rgb(110, 110, 110);
+  }
+
+  #luckyButton:hover {
+    border: .5px solid rgb(209, 209, 209);
+    cursor: pointer;
+    color:rgb(77, 77, 77);
+  }
+
+  #signInButton {
+    text-align: center;
+    border: none;
+    padding: 8px 15px;
+    font-size:14px;
+    outline-width: 0;
+    background: rgb(66, 133, 244);
+    color: white;
+    font-weight: bold;
+  }
+
+  #signInButton:hover {
+    border: .5px solid rgb(209, 209, 209);
+    cursor: pointer;
+  }
+
+  #apps {
+      padding-left: 5px;
+      padding-right: 15px;
+      vertical-align: middle;
+      padding-bottom: 5px;
+      color: rgb(77, 77, 77);
+  }
